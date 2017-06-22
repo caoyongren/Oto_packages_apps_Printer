@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<print-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:vendor="openthos"
+    android:settingsActivity="com.oto_packages_apps_printer.ui.SettingsActivity"
+    android:addPrintersActivity="com.oto_packages_apps_printer.ui.ManagementActivity"
+    android:advancedPrintOptionsActivity="com.oto_packages_apps_printer.ui.AdvancedPrintOptionsActivity"
+    >
+</print-service>
