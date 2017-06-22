@@ -2,9 +2,9 @@ package com.oto_packages_apps_printer.task;
 
 import android.util.Log;
 
-import com.github.openthos.printer.localprint.APP;
-import com.github.openthos.printer.localprint.util.FileUtils;
-import com.github.openthos.printer.localprint.util.LogUtils;
+import com.oto_packages_apps_printer.APP;
+import com.oto_packages_apps_printer.util.FileUtils;
+import com.oto_packages_apps_printer.util.LogUtils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by bboxh on 2016/5/14.
+ * Created by Matthew on 2016/5/14.
  */
 public abstract class CommandTask<Params, Progress, Result> extends BaseTask<Params, Progress, Result> {
 

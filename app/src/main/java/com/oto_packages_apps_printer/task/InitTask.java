@@ -1,8 +1,8 @@
 package com.oto_packages_apps_printer.task;
 
-import com.github.openthos.printer.localprint.APP;
-import com.github.openthos.printer.localprint.R;
-import com.github.openthos.printer.localprint.util.FileUtils;
+import com.oto_packages_apps_printer.APP;
+import com.oto_packages_apps_printer.R;
+import com.oto_packages_apps_printer.util.FileUtils;
 
 import java.util.List;
 

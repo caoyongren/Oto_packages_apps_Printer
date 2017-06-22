@@ -1,29 +1,21 @@
 package com.oto_packages_apps_printer.service;
 
-import android.content.Context;
-import android.hardware.usb.UsbDevice;
-import android.hardware.usb.UsbManager;
-import android.print.PrintAttributes;
-import android.print.PrinterCapabilitiesInfo;
 import android.print.PrinterId;
 import android.print.PrinterInfo;
 import android.printservice.PrinterDiscoverySession;
 import android.widget.Toast;
 
-
-import com.github.openthos.printer.localprint.R;
-import com.github.openthos.printer.localprint.model.PrinterItem;
-import com.github.openthos.printer.localprint.task.ListAddedTask;
-import com.github.openthos.printer.localprint.task.StateTask;
-import com.github.openthos.printer.localprint.util.LogUtils;
+import com.oto_packages_apps_printer.R;
+import com.oto_packages_apps_printer.model.PrinterItem;
+import com.oto_packages_apps_printer.task.ListAddedTask;
+import com.oto_packages_apps_printer.task.StateTask;
+import com.oto_packages_apps_printer.util.LogUtils;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by bboxh on 2016/4/12.
+ * Created by Matthew on 2016/4/12.
  */
 public class PrintDiscoverySession extends PrinterDiscoverySession {
 
@@ -103,7 +95,6 @@ public class PrintDiscoverySession extends PrinterDiscoverySession {
             }
         };
         task.start(printerId);
-
     }
 
     @Override
@@ -114,7 +105,4 @@ public class PrintDiscoverySession extends PrinterDiscoverySession {
     public void onDestroy() {
 
     }
-
-
-
 }
